@@ -25,6 +25,11 @@
 a{
     text-decoration: none;
 }
+p{
+    font-size: 0.67rem;
+    line-height: 1.08rem;
+
+}
 .btn{
     background-color: #FF900E;
     color: white;
@@ -35,12 +40,18 @@ a{
     margin: 1rem;
     border: none;
 }
+h2{
+    font-size: 1.89rem;
+    font-weight: 700;
+    line-height: 2.2rem;
+}
 /* header*/
  .header{
     width: 100vw;
     height: auto;
     background-color: rgba(255, 144, 14, 0.1);
     border: 1px solid rgb(249, 249, 248);
+    margin-bottom: 3.56rem;
  
    
  }
@@ -75,6 +86,7 @@ a{
 
 /*banner*/
 
+
 .banner-text{
     width: 52%;
     text-align: center;
@@ -89,8 +101,7 @@ a{
 
 }
 .banner-text p{
-    font-size: 0.67rem;
-    line-height: 1.08rem;
+   
     margin-bottom: 1.5rem;
 }
 .img{
@@ -99,10 +110,47 @@ a{
 }
 .img img{
     width: 80%;
-    margin-bottom: 1rem;
+    margin-bottom: 1.89rem;
     
    
 }
+
+/*main part start*/
+
+.quick-list{
+    width: 70vw;
+    height: auto;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+.quick-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 48%;
+    gap: 2%;
+}
+.quick-img img{
+    width: 98%;
+}
+.quick-content{
+    width: 44%;
+    text-align: left;
+}
+.quick-b{
+    margin-left: 0px;
+}
+.s1{
+    font-size:1.7rem ;
+    font-weight: 500;
+    color: #727272;
+}
+.s2{
+   color:  #FF900E;  
+}
+
 
 @media screen and (max-width:576px){
     html{
