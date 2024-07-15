@@ -118,7 +118,7 @@ h2{
 /*main part start*/
 
 .quick-list{
-    width: 70vw;
+    width: 75vw;
     height: auto;
     margin: 0 auto;
     justify-content: space-between;
@@ -158,13 +158,15 @@ h2{
     }
     .quick-list{
         flex-direction: column;
+
     }
     .quick-content{
         width: 80%;
+        text-align: center;
     }
     .quick-img{
-        width: 80%;
-        margin-bottom: 1rem;
+        width: 100%;
+        margin-bottom: 1.89rem;
     }
     
     
@@ -172,6 +174,18 @@ h2{
 @media screen and (min-width:576.01px) and (max-width:992px){
     html{
         font-size: 12px;
+    }
+    .quick-list{
+        flex-direction: column;
+
+    }
+    .quick-content{
+        width: 80%;
+        text-align: center;
+    }
+    .quick-img{
+        width: 100%;
+        margin-bottom: 1.89rem;
     }
     
     
