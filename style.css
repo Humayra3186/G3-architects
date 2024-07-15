@@ -118,7 +118,7 @@ h2{
 /*main part start*/
 
 .quick-list{
-    width: 71vw;
+    width: 70vw;
     height: auto;
     margin: 0 auto;
     justify-content: space-between;
@@ -162,12 +162,12 @@ h2{
 
     }
     .quick-content{
-        width: 80%;
+        width: 90%;
         text-align: center;
     }
     .quick-img{
         width: 100%;
-        margin-bottom: 2.5 rem;
+        margin-bottom: 3rem;
     }
     
     
