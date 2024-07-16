@@ -254,13 +254,49 @@ h2{
 .fact-card h2{
     margin-bottom: 0.3rem;
 }
+/* sponsor section*/
+
+.sponsor-section{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.sponsor-section h2{
+    margin-bottom: 1rem;
+}
+.sponsor-section p{
+    margin-bottom: 2.5rem;
+}
+
+.companies{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 4.5%;
+    margin-bottom: 5.9rem;
+   
+
+}
+.companies img{
+   width: 7.5rem;
+    height: 2.1rem;
+    filter: grayscale(100%);
+}
+
+.footer{
+    width: 80%;
+    border-radius: 5px;
+    background: rgb(255, 244, 231);
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0 auto 6rem;
+}
 
 
 
 
 @media screen and (max-width:576px){
     html{
-        font-size: 10px;
+        font-size: 12px;
     }
     .navbar{
         width:100%
@@ -293,6 +329,12 @@ h2{
     .fact-card{
         margin-bottom: 1.5rem;
         
+    }
+    .companies{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .companies img{
+        margin-bottom: 1.5rem;
     }
     
     
